@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<title>The termites’ roles and pathways as promoters of organic matter and gas fluxes in the Brazilian Savanna</title>
+
+
+
+
+
+
+
+<!--
+Font-awesome icons ie github or twitter
+-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+
+<!--
+Google fonts api stuff
+-->
+<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Rasa' rel='stylesheet'>
+
+<!--
+Here are the required style attributes for css to make this poster work :)
+-->
+<style>
+@page {
+size: 46in 32in;
+margin: 0;
+padding: 0;
+background-color: #fff5e5;
+}
+body {
+margin: 0px;
+padding: 0px;
+width: 46in;
+height: 32in;
+text-align: justify;
+font-size: 52px;
+background-color: #fff5e5;
+color: #000000;
+}
+/* RMarkdown Class Styles */
+/* center align leaflet map,
+from https://stackoverflow.com/questions/52112119/center-leaflet-in-a-rmarkdown-document */
+.html-widget {
+margin: auto;
+position: sticky;
+margin-top: 2cm;
+margin-bottom: 2cm;
+}
+.leaflet.html-widget.html-widget-static-bound.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+position: sticky;
+width: 100%;
+}
+pre.sourceCode.r {
+background-color: #dddddd40;
+border-radius: 4mm;
+padding: 4mm;
+width: 75%;
+margin: auto;
+margin-top: 1em;
+margin-bottom: 1em;
+/* align-items: center; */
+}
+code.sourceCode.r{
+background-color: transparent;
+font-size: 20pt;
+border-radius: 2mm;
+}
+code {
+font-size: 25pt;
+font-family: monospace;
+background-color: #9e844e24;
+color: #b7b67a;
+padding: 1.2mm;
+line-height: 1;
+border-radius: 2mm;
+}
+caption {
+margin-bottom: 10px;
+font-size: 20pt;
+font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b7b67a20;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+  border-spacing: 0;
+  font-size: 40%;
+  border-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 1em;
+  padding-left: 1em;
+  line-height: 1em;
+}
+table {
+  margin: auto;
+}
+th {
+  padding-left: 5mm;
+  padding-right: 5mm;
+}
+.caption {
+font-size: 20pt;
+font-style: italic;
+padding-top: 0;
+}
+.references {
+font-size: 20px;
+line-height: 90%;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+float: left;
+padding: 0px;
+}
+.outer {
+width: 46in;
+height: 32in;
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+-webkit-column-fill: auto;
+-moz-column-fill: auto;
+column-fill: auto;
+-webkit-column-rule-width: 50%;
+-moz-column-rule-width: 50%;
+column-rule-width: 50%;
+-webkit-column-rule-style: solid;
+-moz-column-rule-style: solid;
+column-rule-style: solid;
+-webkit-column-rule-color: black;
+-moz-column-rule-color: black;
+column-rule-color: black;
+-webkit-column-gap: 50%;
+background-color: #fff5e5;
+font-family: Rasa;
+color: #000000;
+}
+span.citation {
+  color: #9e844e;
+  font-weight: bold;
+}
+a {
+text-decoration: none;
+color: #9e844e;
+}
+#title {
+font-size: 90pt;
+text-align: left;
+margin: 0;
+line-height: 90%;
+border-bottom: 0;
+}
+#author {
+color: #b7b67a;
+margin: 0;
+line-height: 90%;
+font-size: 1.0em;
+}
+#affiliation {
+padding-top: 1em;
+color: #00000060;
+font-style: italic;
+font-size: 45px;
+margin: 0;
+}
+sup {
+color: #50561f;
+}
+.affiliation sup {
+font-size: 20px;
+}
+.author sup {
+font-size: 30px;
+}
+.author_extra {
+color: #9e844e;
+margin: 0;
+line-height: 85%;
+font-size: 35px;
+}
+.outer h1 {
+text-align: center;
+margin-top: 0.5in;
+margin-bottom: 0.5in;
+}
+.outer h2 {
+text-align: center;
+}
+.outer p {
+color: #000000;
+}
+.outer ol {
+text-align: left;
+}
+.main {
+width: calc(46in / 2);
+height: 32in;
+position: absolute;
+margin-left: calc(46in / 4);
+background-color: #b7b67a;
+color: #FFFFFF90;
+font-family: Special Elite;
+background-image: linear-gradient(#b7b67a 50%, #9e844e);
+}
+.main strong {
+color: #FFFFFF;
+}
+img.main-img-left {
+width: 20%;
+left: 0.5in;
+bottom: 0.2in;
+position: absolute;
+}
+img.main-img-right {
+width: 18%;
+right: 0.5in;
+bottom: 0.2in;
+position: absolute;
+}
+.main p {
+padding-top: 20%;
+font-size: 150px;
+text-align: left;
+}
+.fab {
+color: #00000060;
+font-size: 25px;
+}
+.twitter, i {
+color: #00000060;
+font-size: 35px;
+text-decoration: none;
+}
+a.email {
+text-decoration: none;
+color: #00000060;
+font-size: 35px;
+}
+.envelope {
+color: #00000060;
+font-size: 5px;
+text-decoration: none;
+}
+.poster_wrap {
+width: 46in;
+height: 32in;
+padding: 0cm;
+background-color: #fff5e5;
+}
+span > #tab:mytable {
+  font-weight: bold;
+}
+.section {
+  padding-left: 20mm;
+  padding-right: 20mm;
+}
+.main p {
+  padding-left: 30mm;
+  padding-right: 30mm;
+}
+.main_pic {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.orcid img {
+  width: 3%;
+}
+</style>
+</head>
+<body>
+
+
+<div class="poster_wrap">
+<div class="column outer">
+<br>
+<div class="title section">
+<h1 id="title">The termites’ roles and pathways as promoters of organic matter and gas fluxes in the Brazilian Savanna</h1>
+<br>
+<h3 id="author" class="author">
+
+Yuri Souza<sup> 1, <a class="orcid" href="https://orcid.org/0000-0002-2133-0469"><img src="https://raw.githubusercontent.com/brentthorne/posterdown/master/images/orcid.jpg"></a></sup><br>
+
+<a class='envelope'><i class="fas fa-envelope"></i></a> <a href="mailto:yuri.souza@miami.edu" class="email">yuri.souza@miami.edu</a> <br>
+ Amy Zanne<sup> 1, <a class="orcid" href="https://orcid.org/0000-0001-6379-9452"><img src="https://raw.githubusercontent.com/brentthorne/posterdown/master/images/orcid.jpg"></a></sup><br>
+
+<a class='envelope'><i class="fas fa-envelope"></i></a> <a href="mailto:aezanne@gmail.com" class="email">aezanne@gmail.com</a> <br>
+</h3>
+
+<h5 id="author_extra" class="author_extra">
+ </h5>
+
+<p id="affiliation" class="affiliation">
+<sup>1</sup> Department of Biology, The University of Miami
+</p>
+
+</div>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Campos de murundus are discrete mounds contrasting with surrounding grass-covered depressions common throughout the Brazilian Savanna. They have distinctive woody vegetation associated and better-drained soil with strong and cohesive structures. Such sites favor colonization both by plants and by termites¹. These animals play a major role in ecosystem dynamics and maintenance through organic matter decomposition and greenhouse gases emission ². In fact, termites have been proposed as essential for building these structures ³. Even so, we lack information regarding its ecological contribution.</p>
+</div>
+<div id="objectives" class="section level1">
+<h1>Objectives</h1>
+<p>My main question is about how the <em>Campos de murundus</em> and termites drive vegetation differentiation and gas emissions in a spatial gradient by investigating the following:</p>
+<p><strong>1.</strong> How do termite species composition and diversity vary within and outside the murundus?</p>
+<p><strong>2.</strong> How do termite assemblages affect soil structure, nutrient composition (such as phosphorus and nitrogen), and vegetal organic matter decomposition?</p>
+<p><strong>3.</strong> How do the changes in soil components affect plants’ functional diversity?</p>
+<p><strong>4.</strong> And finally, how does termites activity within the murundus affect CH4 and CO2 emission rates?</p>
+</div>
+<div id="methods" class="section level1">
+<h1>Methods</h1>
+<p>This experiment will be performed in the Brazilian Savanna <strong>Cerrado</strong>. Our sample design consists of termites and soil sample collections in a spatial gradient into and around the murundus structures. After collecting our samples, we will investigate how these variables affect plant functional diversity and greenhouse gases emission.</p>
+</div>
+<div id="hypothesis" class="section level1">
+<h1>Hypothesis</h1>
+<p>We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and greenhouse gas fluxes increasing from an open grass field of the Savanna to the murundus. Thus, we expect the murundus to be tiny ecological islands for species composition and ecosystem processes.</p>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<p><strong>1.</strong> Furley, P. A. (1986). <em>Journal of Biogeography</em></p>
+<p><strong>2.</strong> Zanne, A. E., et al. (2022). <em>Science</em></p>
+<p><strong>3.</strong> de Souza, H. J., &amp; Delabie, J. H. C. (2016). <em>Annales de la Société entomologique de France</em></p>
+</div>
+
+</div>
+<div class="main">
+<p><strong>Murundus</strong>: islands of <strong>biodiversity</strong>, <strong>nutrient enrichment</strong> and <strong>gas fluxes</strong> hotspots by <strong>termites</strong> activity<br><br> <img src="Yuri_Souza_PSI_poster_files/figure-html/conceptual_model7.png" class="main_pic" /></p>
+<img src="Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png" class="main-img-left" />
+<img src="Yuri_Souza_PSI_poster_files/figure-html/um_mound_3.png" class="main-img-right" />
+</div>
+</div>
+
+
+
+</body>
+</html>
