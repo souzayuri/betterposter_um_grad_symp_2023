@@ -25,7 +25,7 @@ primary_colour: "#b7b67a" #"#50561f"
 secondary_colour: "#9e844e" 
 accent_colour: "#50561f"
 main_findings:
-  - "**Murundus**: islands of **biodiversity**, **nutrient enrichment** and **gas fluxes** hotspots by **termites** activity"
+  - "**Murundus**: hotspots of **biodiversity**, **nutrient enrichment**, and **gas eimission** through **termite** activity"
   - '![](Yuri_Souza_PSI_poster_files/figure-html/conceptual_model7.png){.main_pic}'
 main_picwidth: "100%"
 logoleft_name: '![](Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png){.main-img-left}'
