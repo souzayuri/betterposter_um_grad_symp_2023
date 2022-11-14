@@ -1,0 +1,95 @@
+---
+title: The termites' roles and pathways as promoters of organic matter and gas fluxes in the Brazilian Savanna
+title_textsize: "90pt"
+font_family:	'Rasa'
+main_width: 0.5
+poster_height: "32in"
+poster_width: "46in"
+author:
+  - name: Yuri Souza
+    affil: 1
+    email: yuri.souza@miami.edu
+    orcid: 0000-0002-2133-0469
+    main: true
+  - name: Amy Zanne
+    affil: 1
+    email: aezanne@gmail.com
+    orcid: 0000-0001-6379-9452
+    main: true
+author_textsize: "1.0em"
+affiliation:
+  - num: 1
+    address: Department of Biology, The University of Miami
+affiliation_textsize: "45px"
+primary_colour: "#b7b67a" #"#50561f"
+secondary_colour: "#9e844e" 
+accent_colour: "#50561f"
+main_findings:
+  - "**Murundus**: islands of **biodiversity**, **nutrient enrichment** and **gas fluxes** hotspots by **termites** activity"
+  - '![](Yuri_Souza_PSI_poster_files/figure-html/conceptual_model7.png){.main_pic}'
+main_picwidth: "100%"
+logoleft_name: '![](Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png){.main-img-left}'
+logoright_name: '![](Yuri_Souza_PSI_poster_files/figure-html/um_mound_3.png){.main-img-right}'
+main_textsize: "150px"
+body_textsize: "52px"
+body_bgcol: "#fff5e5"
+column_padding:	"20mm"
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    highlight: haddock
+    number_sections: false
+link-citations: true
+#bibliography: packages.bib
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(results = 'asis',
+                      echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%")
+options(knitr.table.format = "html") 
+```
+
+```{r myplot, include=FALSE}
+
+```
+
+
+```{r, include=FALSE}
+knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
+```
+
+# Introduction
+Campos de murundus are discrete mounds contrasting with surrounding grass-covered depressions common throughout the Brazilian Savanna. They have distinctive woody vegetation associated and better-drained soil with strong and cohesive structures. Such sites favor colonization both by plants and by termites¹. These animals play a major role in ecosystem dynamics and maintenance through organic matter decomposition and greenhouse gases emission ². In fact, termites have been proposed as essential for building these structures ³. Even so, we lack information regarding its ecological contribution. 
+
+# Objectives
+My main question is about how the *Campos de murundus* and termites drive vegetation differentiation and gas emissions in a spatial gradient by investigating the following:
+
+**1.** How do termite species composition and diversity vary within and outside the murundus?
+
+**2.** How do termite assemblages affect soil structure, nutrient composition (such as phosphorus and nitrogen), and vegetal organic matter decomposition?
+
+**3.**  How do the changes in soil components affect plants' functional diversity?
+
+**4.** And finally, how does termites activity within the murundus affect CH4 and CO2 emission rates?
+
+# Methods
+
+This experiment will be performed in the Brazilian Savanna **Cerrado**. Our sample design consists of termites and soil sample collections in a spatial gradient into and around the murundus structures. After collecting our samples, we will investigate how these variables affect plant functional diversity and greenhouse gases emission. 
+
+# Hypothesis
+
+We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and greenhouse gas fluxes increasing from an open grass field of the Savanna to the murundus. Thus, we expect the murundus to be tiny ecological islands for species composition and ecosystem processes.
+
+# References
+
+**1.** Furley, P. A. (1986). *Journal of Biogeography* 
+
+**2.** Zanne, A. E., et al. (2022). *Science* 
+
+**3.** de Souza, H. J., & Delabie, J. H. C. (2016). *Annales de la Société entomologique de France*
