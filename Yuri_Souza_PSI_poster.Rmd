@@ -1,10 +1,10 @@
 ---
-title: The termites' roles and pathways as promoters of organic matter and gas fluxes in the Brazilian Savanna
+title: Termites' role as promoters of organic matter and gas fluxes in the Brazilian Savanna
 title_textsize: "90pt"
 font_family:	'Rasa'
 main_width: 0.5
-poster_height: "32in"
-poster_width: "46in"
+poster_height: "36in"
+poster_width: "48in"
 author:
   - name: Yuri Souza
     affil: 1
@@ -25,9 +25,9 @@ primary_colour: "#b7b67a" #"#50561f"
 secondary_colour: "#9e844e" 
 accent_colour: "#50561f"
 main_findings:
-  - "**Murundus**: hotspots of **biodiversity**, **nutrient enrichment**, and **gas eimission** through **termite** activity"
+  - "**Murundus**: hotspots of **biodiversity**, **nutrient enrichment**, and **gas emission** through **termite** activity"
   - '![](Yuri_Souza_PSI_poster_files/figure-html/conceptual_model7.png){.main_pic}'
-main_picwidth: "100%"
+main_picwidth: 100%
 logoleft_name: '![](Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png){.main-img-left}'
 logoright_name: '![](Yuri_Souza_PSI_poster_files/figure-html/um_mound_3.png){.main-img-right}'
 main_textsize: "150px"
