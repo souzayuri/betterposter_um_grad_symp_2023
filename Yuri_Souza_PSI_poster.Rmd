@@ -31,7 +31,7 @@ main_picwidth: 100%
 logoleft_name: '![](Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png){.main-img-left}'
 logoright_name: '![](Yuri_Souza_PSI_poster_files/figure-html/um_mound_3.png){.main-img-right}'
 main_textsize: "150px"
-body_textsize: "52px"
+body_textsize: "54px"
 body_bgcol: "#fff5e5"
 column_padding:	"20mm"
 output: 
@@ -65,26 +65,26 @@ knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
 ```
 
 # Introduction
-Campos de murundus are discrete mounds contrasting with surrounding grass-covered depressions common throughout the Brazilian Savanna. They have distinctive woody vegetation associated and better-drained soil with strong and cohesive structures. Such sites favor colonization both by plants and by termites¹. These animals play a major role in ecosystem dynamics and maintenance through organic matter decomposition and greenhouse gases emission ². In fact, termites have been proposed as essential for building these structures ³. Even so, we lack information regarding its ecological contribution. 
+Campos de Murundus, or earthmounds, are discrete mounds surrounded by grass common throughout the Brazilian Savanna. Such sites favor colonization both by plants and by termites¹, which play a major role in ecosystem dynamics and maintenance through organic matter decomposition and greenhouse gases emission ². Termites have been suggested as the engineered of the Murundus structure and even so we lack information regarding its ecological contribution. 
 
 # Objectives
-My main question is about how the *Campos de murundus* and termites drive vegetation differentiation and gas emissions in a spatial gradient by investigating the following:
+In my project I want to address how *Campos de murundus* and termites drive vegetation differentiation and gas emissions in a spatial gradient by investigating the following:
 
-**1.** How do termite species composition and diversity vary within and outside the murundus?
+**1.** How do termite species composition and diversity vary within and outside the Murundus?
 
-**2.** How do termite assemblages affect soil structure, nutrient composition (such as phosphorus and nitrogen), and vegetal organic matter decomposition?
+**2.** What are the mechanisms driving soil structure and nutrient composition by termite assemblages?
 
-**3.**  How do the changes in soil components affect plants' functional diversity?
+**3.** How are changes in soil components affecting plants' functional diversity?
 
-**4.** And finally, how does termites activity within the murundus affect CH4 and CO2 emission rates?
+**4.** Is termite activity within the Murundus affecting CH4 and CO2 emission rates?
 
 # Methods
 
-This experiment will be performed in the Brazilian Savanna **Cerrado**. Our sample design consists of termites and soil sample collections in a spatial gradient into and around the murundus structures. After collecting our samples, we will investigate how these variables affect plant functional diversity and greenhouse gases emission. 
+This experiment will be performed in the Brazilian Savanna **Cerrado**. Our sample design consists of termites and soil sample collections in a spatial gradient into and around the Murundus structures. After collecting our samples, we will investigate how these variables affect plant functional diversity and greenhouse gases emission. 
 
 # Hypothesis
 
-We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and greenhouse gas fluxes increasing from an open grass field of the Savanna to the murundus. Thus, we expect the murundus to be tiny ecological islands for species composition and ecosystem processes.
+We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and greenhouse gas fluxes increasing from an open grass field of the Savanna to the Murundus. Thus, we expect the Murundus to be tiny ecological islands for species composition and ecosystem processes such as nutrient turnover.
 
 # References
 
