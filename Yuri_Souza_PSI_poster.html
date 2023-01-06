@@ -8,7 +8,7 @@
 
 
 
-<title>Termites’ role as promoters of organic matter and gas fluxes in the Brazilian Savanna</title>
+<title>Organic matter and gas fluxes dynamics promoted by tiny terrestrial islands</title>
 
 
 
@@ -33,7 +33,7 @@ Here are the required style attributes for css to make this poster work :)
 -->
 <style>
 @page {
-size: 48in 36in;
+size: 36in 48in;
 margin: 0;
 padding: 0;
 background-color: #fff5e5;
@@ -41,9 +41,9 @@ background-color: #fff5e5;
 body {
 margin: 0px;
 padding: 0px;
-width: 48in;
-height: 36in;
-text-align: justify;
+width: 36in;
+height: 48in;
+text-align: align-left;
 font-size: 54px;
 background-color: #fff5e5;
 color: #000000;
@@ -112,7 +112,7 @@ th {
   padding-right: 5mm;
 }
 .caption {
-font-size: 20pt;
+font-size: 25pt;
 font-style: italic;
 padding-top: 0;
 }
@@ -126,8 +126,8 @@ float: left;
 padding: 0px;
 }
 .outer {
-width: 48in;
-height: 36in;
+width: 36in;
+height: 48in;
 -webkit-column-count: 2; /* Chrome, Safari, Opera */
 -moz-column-count: 2; /* Firefox */
 column-count: 2;
@@ -158,9 +158,9 @@ color: #9e844e;
 }
 #title {
 font-size: 90pt;
-text-align: left;
+text-align: center;
 margin: 0;
-line-height: 90%;
+line-height: 88%;
 border-bottom: 0;
 }
 #author {
@@ -193,8 +193,8 @@ font-size: 35px;
 }
 .outer h1 {
 text-align: center;
-margin-top: 0.5in;
-margin-bottom: 0.5in;
+margin-top: 0.1in;
+margin-bottom: 0.1in;
 }
 .outer h2 {
 text-align: center;
@@ -206,10 +206,10 @@ color: #000000;
 text-align: left;
 }
 .main {
-width: calc(48in / 2);
-height: 36in;
+width: calc(36in / 2);
+height: 48in;
 position: absolute;
-margin-left: calc(48in / 4);
+margin-left: calc(36in / 4);
 background-color: #b7b67a;
 color: #FFFFFF90;
 font-family: Special Elite;
@@ -219,20 +219,36 @@ background-image: linear-gradient(#b7b67a 50%, #9e844e);
 color: #FFFFFF;
 }
 img.main-img-left {
-width: 20%;
+width: 35%;
 left: 0.5in;
 bottom: 0.2in;
 position: absolute;
 }
 img.main-img-right {
-width: 18%;
+width: 30%;
 right: 0.5in;
 bottom: 0.2in;
 position: absolute;
 }
+
+img.main-img-area {
+width: 117%;
+margin-left: -14mm;
+margin-right: 0mm;
+margin-right: auto;
+}
+
+img.main-img-map {
+width: 115%;
+margin-left: -17mm;
+margin-right: -10mm;
+margin-right: auto;
+}
+
+
 .main p {
 padding-top: 20%;
-font-size: 150px;
+font-size: 175px;
 text-align: left;
 }
 .fab {
@@ -247,7 +263,7 @@ text-decoration: none;
 a.email {
 text-decoration: none;
 color: #00000060;
-font-size: 35px;
+font-size: 50px;
 }
 .envelope {
 color: #00000060;
@@ -255,8 +271,8 @@ font-size: 5px;
 text-decoration: none;
 }
 .poster_wrap {
-width: 48in;
-height: 36in;
+width: 36in;
+height: 48in;
 padding: 0cm;
 background-color: #fff5e5;
 }
@@ -264,17 +280,19 @@ span > #tab:mytable {
   font-weight: bold;
 }
 .section {
-  padding-left: 20mm;
+  padding-left: 15mm;
   padding-right: 20mm;
+  padding-top: 0mm;
+  padding-bottom: 0mm;
 }
 .main p {
   padding-left: 30mm;
   padding-right: 30mm;
 }
 .main_pic {
-  width: 100%;
+  width: 115%;
   display: block;
-  margin-left: auto;
+  margin-left: -30mm;
   margin-right: auto;
 }
 .orcid img {
@@ -289,7 +307,7 @@ span > #tab:mytable {
 <div class="column outer">
 <br>
 <div class="title section">
-<h1 id="title">Termites’ role as promoters of organic matter and gas fluxes in the Brazilian Savanna</h1>
+<h1 id="title">Organic matter and gas fluxes dynamics promoted by tiny terrestrial islands</h1>
 <br>
 <h3 id="author" class="author">
 
@@ -305,29 +323,42 @@ Yuri Souza<sup> 1, <a class="orcid" href="https://orcid.org/0000-0002-2133-0469"
  </h5>
 
 <p id="affiliation" class="affiliation">
-<sup>1</sup> Department of Biology, The University of Miami
+<sup>1</sup> Department of Biology, University of Miami
 </p>
 
 </div>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p>Campos de Murundus, or earthmounds, are discrete mounds surrounded by grass common throughout the Brazilian Savanna. Such sites favor colonization both by plants and by termites¹, which play a major role in ecosystem dynamics and maintenance through organic matter decomposition and greenhouse gases emission ². Termites have been suggested as the engineered of the Murundus structure and even so we lack information regarding its ecological contribution.</p>
+<p>Campos de Murundus, or earthmounds, are discrete mounds surrounded by grass common throughout the Brazilian Savanna. Such sites favor colonization both by plants and by termites¹, which play a major role in ecosystem dynamics and maintenance through organic matter decomposition and gas fluxes².</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:murundus"></span>
+<img src="Yuri_Souza_PSI_poster_files/figure-html/murundus.png" alt="Campos de Murundus in the National Park Chapada dos Veadeiros" width="100%" class = main-img-area />
+<p class="caption">
+Figure 1: Campos de Murundus in the National Park Chapada dos Veadeiros
+</p>
+</div>
 </div>
 <div id="objectives" class="section level1">
 <h1>Objectives</h1>
-<p>In my project I want to address how <em>Campos de murundus</em> and termites drive vegetation differentiation and gas emissions in a spatial gradient by investigating the following:</p>
-<p><strong>1.</strong> How do termite species composition and diversity vary within and outside the Murundus?</p>
-<p><strong>2.</strong> What are the mechanisms driving soil structure and nutrient composition by termite assemblages?</p>
-<p><strong>3.</strong> How are changes in soil components affecting plants’ functional diversity?</p>
-<p><strong>4.</strong> Is termite activity within the Murundus affecting CH4 and CO2 emission rates?</p>
+<p>My goal is to address how <em>Campos de murundus</em> drive ecosystem dynamics in a spatial gradient by investigating the following:</p>
+<p><strong>1.</strong> What are tiny terrestrial islands' roles in ecosystem dynamics?</p>
+<p><strong>2.</strong> Do termite species composition, and diversity vary within and outside the Murundus?</p>
+<p><strong>3.</strong> How does the Murundus drive soil structure, nutrient composition, and gas fluxes?</p>
+<p><strong>4.</strong> Are the changes in soil affecting plants’ functional diversity?</p>
+<p><strong>5.</strong> Can vertebrates change the Murundus dynamic through predation and physical damage?</p>
 </div>
 <div id="methods" class="section level1">
 <h1>Methods</h1>
-<p>This experiment will be performed in the Brazilian Savanna <strong>Cerrado</strong>. Our sample design consists of termites and soil sample collections in a spatial gradient into and around the Murundus structures. After collecting our samples, we will investigate how these variables affect plant functional diversity and greenhouse gases emission.</p>
+<p>This experiment will be performed by a literature review and data collection in the Brazilian Savanna <strong>Cerrado</strong>. Our sample design consists of termites, plants, and soil sample collections in a spatial gradient into and around the conserved and damaged Murundus.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:pncv"></span>
+<img src="Yuri_Souza_PSI_poster_files/figure-html/PNCV.png" alt="National Park Chapada dos Veadeiros" width="100%" class = main-img-map />
+<p class="caption">
+Figure 2: National Park Chapada dos Veadeiros
+</p>
+</div>
 </div>
 <div id="hypothesis" class="section level1">
 <h1>Hypothesis</h1>
-<p>We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and greenhouse gas fluxes increasing from an open grass field of the Savanna to the Murundus. Thus, we expect the Murundus to be tiny ecological islands for species composition and ecosystem processes such as nutrient turnover.</p>
+<p>We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and gas fluxes increasing from an open grass field of the Savanna to the Murundus. Such gradient might be affected by the conserved state of the Murundus. Thus, we expect the Murundus to be tiny ecological islands for species composition and ecosystem processes such as gas emission and nutrient turnover.</p>
 </div>
 <div id="references" class="section level1">
 <h1>References</h1>
@@ -338,7 +369,7 @@ Yuri Souza<sup> 1, <a class="orcid" href="https://orcid.org/0000-0002-2133-0469"
 
 </div>
 <div class="main">
-<p><strong>Murundus</strong>: hotspots of <strong>biodiversity</strong>, <strong>nutrient enrichment</strong>, and <strong>gas emission</strong> through <strong>termite</strong> activity<br><br> <img src="Yuri_Souza_PSI_poster_files/figure-html/conceptual_model7.png" class="main_pic" /></p>
+<p><strong>Murundus</strong>: hotspots of <strong>biodiversity</strong>, <strong>nutrient enrichment</strong>, and <strong>gas fluxes</strong> through <strong>termite</strong> activity<br><br> <img src="Yuri_Souza_PSI_poster_files/figure-html/conceptual_model9.png" class="main_pic" /></p>
 <img src="Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png" class="main-img-left" />
 <img src="Yuri_Souza_PSI_poster_files/figure-html/um_mound_3.png" class="main-img-right" />
 </div>
@@ -348,3 +379,4 @@ Yuri Souza<sup> 1, <a class="orcid" href="https://orcid.org/0000-0002-2133-0469"
 
 </body>
 </html>
+

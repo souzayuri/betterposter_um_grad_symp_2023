@@ -10,6 +10,6 @@ library(xaringan)
 library(tidyverse)
 
 # convert to pdf
-purrr::map(dir(pattern = ".Rmd$"), chrome_print)
+purrr::map(dir(pattern = ".html$"), chrome_print)
 
 # end ---------------------------------------------------------------------

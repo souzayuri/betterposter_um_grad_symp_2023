@@ -1,10 +1,10 @@
 ---
-title: Termites' role as promoters of organic matter and gas fluxes in the Brazilian Savanna
+title: Organic matter and gas fluxes dynamics promoted by tiny terrestrial islands
 title_textsize: "90pt"
 font_family:	'Rasa'
 main_width: 0.5
-poster_height: "36in"
-poster_width: "48in"
+poster_height: "48in"
+poster_width: "36in"
 author:
   - name: Yuri Souza
     affil: 1
@@ -19,14 +19,14 @@ author:
 author_textsize: "1.0em"
 affiliation:
   - num: 1
-    address: Department of Biology, The University of Miami
+    address: Department of Biology, University of Miami
 affiliation_textsize: "45px"
 primary_colour: "#b7b67a" #"#50561f"
 secondary_colour: "#9e844e" 
 accent_colour: "#50561f"
 main_findings:
-  - "**Murundus**: hotspots of **biodiversity**, **nutrient enrichment**, and **gas emission** through **termite** activity"
-  - '![](Yuri_Souza_PSI_poster_files/figure-html/conceptual_model7.png){.main_pic}'
+  - "**Murundus**: hotspots of **biodiversity**, **nutrient enrichment**, and **gas fluxes** through **termite** activity"
+  - '![](Yuri_Souza_PSI_poster_files/figure-html/conceptual_model9.png){.main_pic}'
 main_picwidth: 100%
 logoleft_name: '![](Yuri_Souza_PSI_poster_files/figure-html/qrcode_github.com.png){.main-img-left}'
 logoright_name: '![](Yuri_Souza_PSI_poster_files/figure-html/um_mound_3.png){.main-img-right}'
@@ -65,26 +65,36 @@ knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
 ```
 
 # Introduction
-Campos de Murundus, or earthmounds, are discrete mounds surrounded by grass common throughout the Brazilian Savanna. Such sites favor colonization both by plants and by termites¹, which play a major role in ecosystem dynamics and maintenance through organic matter decomposition and greenhouse gases emission ². Termites have been suggested as the engineered of the Murundus structure and even so we lack information regarding its ecological contribution. 
+Campos de Murundus, or earthmounds, are discrete mounds surrounded by grass common throughout the Brazilian Savanna. Such sites favor colonization both by plants and by termites¹, which play a major role in ecosystem dynamics and maintenance through organic matter decomposition and greenhouse gases fluxes².
+
+```{r murundus, echo=FALSE, fig.cap="Campos de Murundus in the National Park Chapada dos Veadeiros", out.width = '100%'}
+knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/murundus.png")
+```
 
 # Objectives
-In my project I want to address how *Campos de murundus* and termites drive vegetation differentiation and gas emissions in a spatial gradient by investigating the following:
+My goal is to address how *Campos de murundus* drive ecosystem dynamics in a spatial gradient by investigating the following:
 
-**1.** How do termite species composition and diversity vary within and outside the Murundus?
+**1.** What are tiny terrestrial islands' roles in ecosystem dynamics?
 
-**2.** What are the mechanisms driving soil structure and nutrient composition by termite assemblages?
+**2.** Do termite species composition, and diversity vary within and outside the Murundus?
 
-**3.** How are changes in soil components affecting plants' functional diversity?
+**3.** How does the Murundus drive soil structure, nutrient composition, and gas fluxes?
 
-**4.** Is termite activity within the Murundus affecting CH4 and CO2 emission rates?
+**4.** Are the changes in soil affecting plants' functional diversity?
+
+**5.** Can vertebrates change the Murundus dynamic through predation and physical damage?
 
 # Methods
 
-This experiment will be performed in the Brazilian Savanna **Cerrado**. Our sample design consists of termites and soil sample collections in a spatial gradient into and around the Murundus structures. After collecting our samples, we will investigate how these variables affect plant functional diversity and greenhouse gases emission. 
+This experiment will be performed by a literature review and data collection in the Brazilian Savanna **Cerrado**. Our sample design consists of termites, plants, and soil sample collections in a spatial gradient into and around the conserved and damaged Murundus. 
+
+```{r pncv, echo=FALSE, fig.cap="National Park Chapada dos Veadeiros", out.width = '100%'}
+knitr::include_graphics("Yuri_Souza_PSI_poster_files/figure-html/PNCV.png")
+```
 
 # Hypothesis
 
-We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and greenhouse gas fluxes increasing from an open grass field of the Savanna to the Murundus. Thus, we expect the Murundus to be tiny ecological islands for species composition and ecosystem processes such as nutrient turnover.
+We hypothesize the existence of a gradient of termite diversity, soil nutrient enrichment, plant functional composition, and gas fluxes increasing from an open grass field of the Savanna to the Murundus. Such gradient might be affected by the conserved state of the Murundus. Thus, we expect the Murundus to be tiny ecological islands for species composition and ecosystem processes such as gas emission and nutrient turnover.
 
 # References
 
